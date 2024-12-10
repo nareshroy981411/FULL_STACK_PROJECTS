@@ -1,0 +1,18 @@
+project/
+├── controllers/
+│   ├── authController.js
+│   ├── userController.js
+│   └── adminController.js
+├── models/
+│   ├── userModel.js
+│   ├── adminModel.js
+│   └── db.js
+├── routes/
+│   ├── authRoutes.js
+│   ├── userRoutes.js
+│   └── adminRoutes.js
+├── middlewares/
+│   ├── authMiddleware.js
+│   ├── roleMiddleware.js
+├── app.js
+└── server.js

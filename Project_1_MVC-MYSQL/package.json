@@ -1,0 +1,30 @@
+{
+  "name": "project_3_mvc-mysql",
+  "version": "1.0.0",
+  "description": "project/\r ├── controllers/\r │   ├── authController.js\r │   ├── userController.js\r │   └── adminController.js\r ├── models/\r │   ├── userModel.js\r │   ├── adminModel.js\r │   └── db.js\r ├── routes/\r │   ├── authRoutes.js\r │   ├── userRoutes.js\r │   └── adminRoutes.js\r ├── middlewares/\r │   ├── authMiddleware.js\r │   ├── roleMiddleware.js\r ├── app.js\r └── server.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "mongoose": "^8.8.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.5",
+    "nodemon": "^3.1.7"
+  }
+}
